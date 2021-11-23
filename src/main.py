@@ -30,7 +30,7 @@ if __name__ == '__main__':
     #==============================================================================
     # Binarisation de l'image et affichage
     #==============================================================================
-    S = 70
+    S = 60
     image_binarisee = image.binarisation(S)
     image_binarisee.display("Image binarisee")
 
@@ -43,7 +43,7 @@ if __name__ == '__main__':
     #==============================================================================
     # Redimensionnement de l'image et affichage
     #==============================================================================
-    image_resizee = image_localisee.resize(100, 500)
+    image_resizee = image_localisee.resize(60, 100)
     image_resizee.display("Image redimensionee")
 
     #==============================================================================
